@@ -1,0 +1,22 @@
+{
+  "id": "@entire-vc/evc-team-relay-mcp",
+  "title": "Evc-Team-Relay-Mcp",
+  "description": "Read, search, and write Obsidian vault notes via Team Relay collaborative server. Supports shared folders, real-time sync, and AI agent access.",
+  "categories": ["Content Management System", "Developer Tools"],
+  "tags": ["Obsidian", "notes", "sync", "collaborative", "MCP"],
+  "creator": "entire-vc",
+  "logoUrl": "",
+  "publishDate": "2026-02-26T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/entire-vc/evc-team-relay-mcp",
+    "pypi": "https://pypi.org/project/evc-team-relay-mcp/"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "uvx",
+    "args": ["evc-team-relay-mcp"]
+  },
+  "defVersion": "1",
+  "parameters": {}
+}
