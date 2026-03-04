@@ -1,0 +1,38 @@
+{
+    "id": "evc-team-relay-mcp",
+    "name": "EVC Team Relay MCP",
+    "title": "EVC Team Relay",
+    "description": "MCP server that gives AI agents read/write access to your Obsidian vault via EVC Team Relay. Supports real-time collaborative editing and CRDT-based sync.",
+    "tags": ["obsidian", "knowledge-management", "notes", "pkm", "collaboration", "vault"],
+    "creator": "entire-vc",
+    "publishDate": "2026-02-01T00:00:00Z",
+    "rating": 5,
+    "type": "stdio",
+    "commandInfo": {
+        "command": "uvx",
+        "args": ["evc-team-relay-mcp"],
+        "env": {
+            "RELAY_CP_URL": "<YOUR_RELAY_URL>",
+            "RELAY_EMAIL": "<YOUR_EMAIL>",
+            "RELAY_PASSWORD": "<YOUR_PASSWORD>"
+        }
+    },
+    "defVersion": "1",
+    "parameters": {
+        "RELAY_CP_URL": {
+            "type": "string",
+            "required": true,
+            "description": "EVC Team Relay control plane URL"
+        },
+        "RELAY_EMAIL": {
+            "type": "string",
+            "required": true,
+            "description": "Your EVC Team Relay account email"
+        },
+        "RELAY_PASSWORD": {
+            "type": "string",
+            "required": true,
+            "description": "Your EVC Team Relay account password"
+        }
+    }
+}
