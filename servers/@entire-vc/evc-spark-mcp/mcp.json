@@ -1,0 +1,32 @@
+{
+  "id": "@entire-vc/evc-spark-mcp",
+  "title": "EVC Spark MCP",
+  "description": "MCP server for discovering, searching, and installing curated AI agent workflows from the Spark catalog. Search 200+ MCP servers, get ready-to-use install configs, and browse curated bundles of skills, prompts, and integrations.",
+  "categories": ["Aggregators", "Developer Tools"],
+  "tags": [
+    "MCP",
+    "discovery",
+    "search",
+    "aggregator",
+    "AI workflows",
+    "catalog"
+  ],
+  "creator": "entire-vc",
+  "logoUrl": "",
+  "publishDate": "2026-03-11T00:00:00Z",
+  "rating": 5,
+  "sources": {
+    "github": "https://github.com/entire-vc/evc-spark-mcp"
+  },
+  "type": "stdio",
+  "commandInfo": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "evc-spark-mcp"
+    ],
+    "env": {}
+  },
+  "defVersion": "1",
+  "parameters": {}
+}
